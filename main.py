@@ -4,10 +4,10 @@ import lyricsgenius as lg
 from waiting import wait
 from analyse import analyse_lyrics
 
-os.environ['SPOTIPY_CLIENT_ID'] = "5742d423aa1d48eaa8f6f12ca9aba316"
-os.environ["SPOTIPY_CLIENT_SECRET"] ="0607ef519208483297cd5ebafab2960b"
-os.environ["SPOTIPY_REDIRECT_URI"] ="http://www.google.com"
-os.environ["GENIUS_ACCESS_TOKEN"] = "IinuJ0AR9MTe8daKQZCrIH2et3iIOEm6aGS-tWpcXmnl9n4qqnoM0JoAWlKfyG3x"
+os.environ['SPOTIPY_CLIENT_ID'] = "xxxx"
+os.environ["SPOTIPY_CLIENT_SECRET"] ="xxxx"
+os.environ["SPOTIPY_REDIRECT_URI"] ="xxxx"
+os.environ["GENIUS_ACCESS_TOKEN"] = "xxxx"
 
 spotify_client_id = os.environ['SPOTIPY_CLIENT_ID']
 spotify_secret = os.environ["SPOTIPY_CLIENT_SECRET"]
